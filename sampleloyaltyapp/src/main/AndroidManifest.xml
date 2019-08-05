@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sampleloyaltyapp">
 
+    <uses-permission android:name="poynt.permission.BUSINESS_SERVICE" />
+    <uses-permission android:name="poynt.permission.TRANSACTION_SERVICE" />
+    <uses-permission android:name="poynt.permission.CONFIGURATION_SERVICE" />
+    <uses-permission android:name="poynt.permission.ORDER_SERVICE" />
+
     <application
         android:name=".SampleLoyaltyApplication"
         android:allowBackup="true"
